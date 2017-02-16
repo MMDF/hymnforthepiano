@@ -105,9 +105,7 @@ public class FinalProject extends GraphicsProgram {
 		if(all)
 		{
 			colorBG = rgen.nextColor();
-			colorFont = colorBG.brighter();
-			colorFont = colorFont.brighter();
-			colorFont = colorFont.brighter();
+			colorFont = colorBG.brighter().brighter().brighter();
 		}
 	}
 	
@@ -171,7 +169,7 @@ public class FinalProject extends GraphicsProgram {
 		songlist.add("oldmc.txt");
 		songlist.add("got.txt");
 		
-		songlistname.add("Für Elise");
+		songlistname.add("FÃ¼r Elise");
 		songlistname.add("Little Lamb");
 		songlistname.add("Ode to Joy");
 		songlistname.add("Twinkle Twinkle");
